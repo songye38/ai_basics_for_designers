@@ -1,9 +1,15 @@
 # ai_basics_for_designers
 디자이너를 위한 AI 기본 프로젝트
+<br/>
+<br/>
 
 
 ## project1
 > 초, 중, 고등학생을 구분하는 AI 만들기!
+#### 기간
+#### 특징
+#### 사용한 모델
+#### 데이터셋
 ## project2
 > 꽃을 구분하는 AI 만들기!
 ## project3
