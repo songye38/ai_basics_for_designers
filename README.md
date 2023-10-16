@@ -7,8 +7,8 @@
 ### project1 초, 중, 고등학생을 구분하는 AI 만들기!
 - [Task] : classification
 - [Dataset] : 학생건강검사 결과분석 rawdata_서울_2015
-- [특징] : 
-- [Compile] :
+- [특징] : classification 기본
+- [Compile] : optimizer="adam", metrics=["accuracy"],loss="sparse_categorical_crossentropy"
 
 <br/>
 
@@ -16,21 +16,26 @@
 - [Task] : classification
 - [Dataset] : iris 데이터셋
 - [특징] : Dropout 기법 사용
-- [Compile] :
+- [Compile] : optimizer='adam',metrics=['accuracy'],loss='sparse_categorical_crossentropy'
 
 <br/>
 
 ### project3 체중을 추론하는 AI 만들기!
 - [Task] : Regression
 - [Dataset] : 육군신체측정정보 데이터셋
-- [특징] : 
+- [특징] : Regression 기본
 - [Compile] : optimizer='adam',metrics=['mae'],loss='mse'
+
+<br/>
+
 
 ### project4 사물을 구분하는 AI 만들기!
 - [Task] : classification
 - [Dataset] : mnist 데이터셋
 - [특징] : keras.layers.Flatten 사용
 - [Compile] : optimizer='adam',metrics=['accuracy'],loss='sparse_categorical_crossentropy'
+
+<br/>
 
 ### project5 & project6 사물을 구분하는 CNN AI 만들기!
 ### project7 말과 인간을 구분하는 AI 만들기!
