@@ -5,38 +5,6 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 
-"""
-Author : Byunghyun Ban
-Date : 2020.07.17.
-"""
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-import random
-
-import time
-try:
-    from matplotlib import pyplot as plt
-except ModuleNotFoundError:
-    import pip
-    pip.main(['install', 'matplotlib'])
-    try:
-        from matplotlib import pyplot as plt
-    except ModuleNotFoundError:
-        time.sleep(2)
-        from matplotlib import pyplot as plt
-
-try:
-    import numpy as np
-except ModuleNotFoundError:
-    import pip
-    pip.main(['install', 'numpy'])
-    try:
-        import numpy as np
-    except ModuleNotFoundError:
-        time.sleep(2)
-        import numpy as np
-
-
 # 데이터를 떠먹여 줄 클래스를 제작합니다.
 class DataReader():
     def __init__(self):
@@ -51,7 +19,7 @@ class DataReader():
         print("Test Y Size : " + str(self.test_Y.shape) + '\n\n')
 
     def read_data(self):
-        file = open("data/" + os.listdir('data')[0])
+        file = open("data/" + os.listdir('data')[0],encoding='cp949')
         data = []
         file.readline()
         for line in file:
