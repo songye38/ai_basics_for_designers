@@ -27,6 +27,11 @@
 - [Compile] : optimizer='adam',metrics=['mae'],loss='mse'
 
 ### project4 사물을 구분하는 AI 만들기!
+- [Task] : classification
+- [Dataset] : mnist 데이터셋
+- [특징] : keras.layers.Flatten 사용
+- [Compile] : optimizer='adam',metrics=['accuracy'],loss='sparse_categorical_crossentropy'
+
 ### project5 & project6 사물을 구분하는 CNN AI 만들기!
 ### project7 말과 인간을 구분하는 AI 만들기!
 ### project8 가위바위보를 하는 AI 만들기!
