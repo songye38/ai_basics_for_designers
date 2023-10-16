@@ -39,7 +39,10 @@
 
 ## CNN 기본
 ### project5 & project6 사물을 구분하는 CNN AI 만들기!
-
+- [Task] : classification
+- [Dataset] : cifar10 데이터셋
+- [특징] : CNN 기본
+- [Compile] :optimizer='adam', metrics=['accuracy'],loss='sparse_categorical_crossentropy'
 <br/>
 
 ### project7 말과 인간을 구분하는 AI 만들기!
