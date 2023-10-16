@@ -3,7 +3,7 @@
 <br/>
 <br/>
 
-
+## 인공지능의 기본 of 기본
 ### project1 초, 중, 고등학생을 구분하는 AI 만들기!
 - [Task] : classification
 - [Dataset] : 학생건강검사 결과분석 rawdata_서울_2015
@@ -37,6 +37,7 @@
 
 <br/>
 
+## CNN 기본
 ### project5 & project6 사물을 구분하는 CNN AI 만들기!
 
 <br/>
@@ -49,6 +50,7 @@
 
 <br/>
 
+## CNN 활용
 ### project9 화가의 화풍을 따라그리는 AI 만들기!
 
 <br/>
@@ -66,6 +68,7 @@
 <br/>
 
 
+## Natural Language Processing
 ### project13 FNN을 활용한 자연어 처리 AI 제작
 
 <br/>
@@ -74,7 +77,7 @@
 
 <br/>
 
-
+## 데이터 예측
 ### project15 일기예보 AI 만들기!
 
 <br/>
