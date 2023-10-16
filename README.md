@@ -5,20 +5,26 @@
 
 
 ### project1 초, 중, 고등학생을 구분하는 AI 만들기!
-- 학생건강검사 결과분석 rawdata_서울_2015 데이터셋을 가지고 초등학생, 중학생, 고등학생 분류하기
+- [Task] : classification
+- [Dataset] : 학생건강검사 결과분석 rawdata_서울_2015
+- [특징] : 
+- [Compile] :
 
 <br/>
 
 ### project2 꽃을 구분하는 AI 만들기!
-- iris 데이터셋을 바탕으로 꽃 분류하기
-- feature 4개 , category 3개
-- Dropout 기법 사용
+- [Task] : classification
+- [Dataset] : iris 데이터셋
+- [특징] : Dropout 기법 사용
+- [Compile] :
 
 <br/>
 
 ### project3 체중을 추론하는 AI 만들기!
-- 육군신체측정정보 데이터셋을 바탕으로 체중 추론하기
-- (optimizer='adam',metrics=['mae'],loss='mse')
+- [Task] : Regression
+- [Dataset] : 육군신체측정정보 데이터셋
+- [특징] : 
+- [Compile] : optimizer='adam',metrics=['mae'],loss='mse'
 
 ### project4 사물을 구분하는 AI 만들기!
 ### project5 & project6 사물을 구분하는 CNN AI 만들기!
