@@ -5,6 +5,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 from PIL import Image
 
+#데이터 다운로드 링크
+#https://www.robots.ox.ac.uk/~vgg/data/pets/
 
 # 데이터를 떠먹여 줄 클래스를 제작합니다.
 class DataReader():
