@@ -21,7 +21,7 @@ class DataReader():
 
     def read_data(self):
         filename = "data/" + os.listdir("data")[0]
-        file = open(filename)
+        file = open(filename,encoding='cp949')
         data = []
 
         for line in file:
