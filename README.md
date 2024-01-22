@@ -1,5 +1,6 @@
 # ai_basics_for_designers
 디자이너를 위한 AI 기본 프로젝트
+- 가장 기본적으로 인공지능 돌려보기
 <br/>
 <br/>
 
