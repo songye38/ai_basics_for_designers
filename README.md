@@ -19,7 +19,6 @@
 - [특징] : Dropout 기법 사용
 - [Compile] : optimizer='adam',metrics=['accuracy'],loss='sparse_categorical_crossentropy'
 
-<br/>
 
 ### project3 체중을 추론하는 AI 만들기!
 - [Task] : Regression
